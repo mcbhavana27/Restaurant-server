@@ -1,0 +1,17 @@
+<%- include('partials/head',{title:title}) %>
+    <%- include('partials/nav',{appTitle:appTitle, active:'/'}) %>
+    <main class="container">
+        <section>
+            <header class="my-5">
+                <h1><%= appTitle %></h1>
+            </header>
+            <hr />
+            <p>
+                Welcome to the Platter app! You can find details of restaurants and items on their menus.
+                Admin can add restaurants , add items to the menu. A general user can vote up/down a restaurant.
+            </p>
+        </section>
+    </main>
+</body>
+
+<%- include('partials/foot') %>

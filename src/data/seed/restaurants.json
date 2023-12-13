@@ -1,0 +1,102 @@
+[
+    {
+        "_id": {
+            "$oid":"111111111111111111111111"
+        },
+        "name": "Mad About Pizza",
+        "slug":"mad-about-pizza",
+        "description": "Spicy curries and tandoori dishes",
+        "cuisines":[
+            "Italian",
+            "American",
+            "Fusion"
+        ],
+        "opens":{
+            "hours":22,
+            "minutes":51
+        },
+        "closes":{
+            "hours":23,
+            "minutes":13
+        },
+        "rating": 4.9,
+        "numRatings": 772,
+        "costForTwo": 73,
+        "imageUrl": "/images/restaurants/mad-about-pizza/restaurant.jpg"
+    },
+    {
+        "_id": {
+            "$oid":"222222222222222222222222"
+        },
+        "name": "Down South",
+        "slug":"down-south",
+        "description": "Authentic Italian cuisine",
+        "cuisines":[
+            "Idli",
+            "Dosa",
+            "Vada Pav"
+        ],
+        "opens":{
+            "hours":17,
+            "minutes":49
+        },
+        "closes":{
+            "hours":21,
+            "minutes":17
+        },
+        "rating": 3.9,
+        "numRatings": 78,
+        "costForTwo": 76,
+        "imageUrl": "images/restaurants/down-south/restaurant.jpg"
+    },
+    {
+        "_id": {
+            "$oid":"333333333333333333333333"
+        },
+        "name": "Nachos And Tacos",
+        "slug":"nachos-and-tacos",
+        "description": "Spicy curries and tandoori dishes",
+        "cuisines":[
+            "Tacos",
+            "French Fries",
+            "Mexican"
+        ],
+        "opens":{
+            "hours":9,
+            "minutes":25
+        },
+        "closes":{
+            "hours":19,
+            "minutes":30
+        },
+        "rating": 4.5,
+        "numRatings": 332,
+        "costForTwo": 87,
+        "imageUrl": "images/restaurants/nachos-and-tacos/restaurant.jpg"
+    },
+    {
+        "_id": {
+            "$oid":"444444444444444444444444"
+        },
+        "name": "Pind Da Swaad",
+        "slug":"pind-da-swad",
+        "description": "Mexican street food",
+        "cuisines":[
+            "Dal Makhani",
+            "Sarson da Saag",
+            "Makke di Roti"
+        ],
+        "opens":{
+            "hours":9,
+            "minutes":5
+        },
+        "closes":{
+            "hours":16,
+            "minutes":43
+        },
+        "rating": 4.1,
+        "numRatings": 340,
+        "costForTwo": 81,
+        "imageUrl": "images/restaurants/pind-da-swaad/restaurant.jpg"
+    }
+]

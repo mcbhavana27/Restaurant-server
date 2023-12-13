@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | The Platter App</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fa-solid fa-pizza-slice fa-rotate-270 me-1"></i>
+                Platter
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/restaurants">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <section>
+            <header class="my-5">
+                <h1>The tech stack</h1>
+            </header>
+            <hr />
+            <div>
+                <ul>
+                    <li>
+                        The app is created using
+                        <a href="https://expressjs.com/">Express</a>
+                    </li>
+                    <li>
+                        <a href="https://getbootstrap.com/">Bootstrap</a> is used for styling pages
+                    </li>
+                    <li>
+                        Icons are courtesy
+                        <a href="https://fontawesome.com/">Font Awesome</a>
+                    </li>
+                    <li>
+                        <a href="https://ejs.co/">EJS</a> is used for templating.
+                    </li>
+                    <li>
+                        <a href="https://mongoosejs.com/">Mongoose</a> is used to connect to a MongoDB server and
+                        validating data against a schema when querying
+                    </li>
+                    <li>
+                        bcrypt is used for hashing passwords , jswebtoken is used to generate JWTs (for authentication
+                        and
+                        authorization ), multer is used to manage file uploads , morgan and winston are used for logging
+                        .
+                        You can search for these projects on
+                        <a href="https://github.com">Github</a> or
+                        <a href="https://npmjs.com">npmjs.com</a>
+                    </li>
+                    <li>
+                        The frontend which is supplied is built using
+                        <a href="https://reactjs.org">React</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

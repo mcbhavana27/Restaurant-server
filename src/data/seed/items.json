@@ -1,0 +1,145 @@
+[
+    {
+        "_id": {
+            "$oid": "121212121212121212121212"
+        },
+        "restaurant": {
+            "$oid": "111111111111111111111111"
+        },
+        "name": "Margherita Pizza",
+        "cuisine": "Italian",
+        "price": 123,
+        "description": "Traditional Italian pizza topped with fresh mozzarella, tomato sauce, and basil.",
+        "imageUrl": "public/images/restaurants/mad-about-pizza/items/pizza1.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "131313131313131313131313"
+        },
+        "restaurant": {
+            "$oid": "111111111111111111111111"
+        },
+        "name": "Pepperoni Pizza",
+        "cuisine": "Thai",
+        "price": 245,
+        "description": "Classic pizza with tomato sauce, mozzarella cheese, and slices of spicy pepperoni.",
+        "imageUrl": "public/images/restaurants/mad-about-pizza/items/pizza1.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "141414141414141414141414"
+        },
+        "restaurant": {
+            "$oid": "111111111111111111111111"
+        },
+        "name": "BBQ Chicken Pizza",
+        "cuisine": "American",
+        "price": 728,
+        "description": "Pizza topped with barbecue sauce, mozzarella cheese, grilled chicken, and red onions.",
+        "imageUrl": "public/images/restaurants/mad-about-pizza/items/pizza3.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "313131313131313131313131"
+        },
+        "restaurant": {
+            "$oid": "333333333333333333333333"
+        },
+        "name": "Tacos al Pastor",
+        "cuisine": "Mexican",
+        "price": 8.99,
+        "description": "Soft corn tortillas filled with spicy marinated pork, fresh pineapple, cilantro, and onion.",
+        "imageUrl": "public/images/restaurants/nachos-and-tacos/items/tacos1.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "323232323232323232323232"
+        },
+        "restaurant": {
+            "$oid": "333333333333333333333333"
+        },
+        "name": "Fish Tacos",
+        "cuisine": "Mexican",
+        "price": 12.99,
+        "description": "Tacos made with crispy beer-battered fish, cabbage slaw, pico de gallo, and chipotle mayo.",
+        "imageUrl": "public/images/restaurants/nachos-and-tacos/items/tacos2.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "343434343434343434343434"
+        },
+        "restaurant": {
+            "$oid": "333333333333333333333333"
+        },
+        "name": "Veggie Tacos",
+        "cuisine": "Italian",
+        "price": 8.99,
+        "description": "Tacos made with sautéed or grilled vegetables, such as bell peppers, onions, and zucchini, topped with cheese and salsa.",
+        "imageUrl": "public/images/restaurants/nachos-and-tacos/items/tacos3.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "212121212121212121212121"
+        },
+        "restaurant": {
+            "$oid": "222222222222222222222222"
+        },
+        "name": "Masala Dosa",
+        "cuisine": "South Indian",
+        "price": 7.99,
+        "description": "A crispy crepe made with rice and lentil batter, filled with spicy potato curry and served with coconut chutney and sambar.",
+        "imageUrl": "public/images/restaurants/down-south/items/dosa.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "232323232323232323232323"
+        },
+        "restaurant": {
+            "$oid": "222222222222222222222222"
+        },
+        "name": "Idli Sambhar",
+        "cuisine": "South Indian",
+        "price": 5.99,
+        "description": "Steamed rice and lentil cakes served with lentil soup and coconut chutney.",
+        "imageUrl": "public/images/restaurants/down-south/items/idli.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "414141414141414141414141"
+        },
+        "restaurant": {
+            "$oid": "444444444444444444444444"
+        },
+        "name": "Lassi",
+        "cuisine": "Punjabi",
+        "price": 4.99,
+        "description": "A popular Punjabi drink made with yogurt, milk, and sugar, served chilled.",
+        "imageUrl": "public/images/restaurants/pind-da-swaad/items/lassi.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "424242424242424242424242"
+        },
+        "restaurant": {
+            "$oid": "444444444444444444444444"
+        },
+        "name": "Rajma Chawal",
+        "cuisine": "Punjabi",
+        "price": 8.99,
+        "description": "A popular Punjabi dish consisting of kidney beans (rajma) served with steamed rice (chawal).",
+        "imageUrl": "public/images/restaurants/pind-da-swaad/items/rajma-chawal.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "434343434343434343434343"
+        },
+        "restaurant": {
+            "$oid": "444444444444444444444444"
+        },
+        "name": "Sarson Ka Saag",
+        "cuisine": "Punjabi",
+        "price": 9.99,
+        "description": "A vegetarian dish made with mustard greens and spices, served with makki di roti (cornmeal flatbread).",
+        "imageUrl": "public/images/restaurants/pind-da-swaad/items/sarson-ka-saag.jpg"
+    }
+]

@@ -1,0 +1,36 @@
+<%- include('partials/head',{title:title}) %>
+    <%- include('partials/nav',{appTitle:appTitle, active:'/restaurants'}) %>
+        <main class="container">
+            <section>
+                <h1 class="my-5">List Of Restaurants</h1>
+                <hr />
+            </section>
+            <div class="row">
+                <% 
+                    restaurants.forEach(
+                        restaurant=>{
+                %>
+                    <div class="col-12 col-md-6 col-md-4 d-flex align-items-stretch">
+                        <div class="card" w-100 my-3>
+                            <img src="<%=restaurant.imageUrl%>" class="card-img-top" alt="<%= restaurant.name %>">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <%= restaurant.name %>
+                                    <span class="text-xs"><%=restaurant.rating%> (<%=restaurant.numRatings%>)</span>
+                                    <span class="float-end">
+                                        <a href="/restaurants/<%= restaurant.id%>" class="btn btn-primary btn-sm">
+                                            Menu
+                                        </a>
+                                    </span>
+                                </h5>
+                                <p class="card-text mt-3"><%= restaurant.description %></p>
+                            </div>
+                        </div>
+                    </div>
+                <% 
+                    });
+                %>
+            </div>
+        </main>
+
+        <%- include('partials/foot') %>

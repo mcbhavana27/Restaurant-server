@@ -1,0 +1,48 @@
+{
+    "restaurants": [
+        {
+            "id": 1,
+            "name": "Mad About Pizza",
+            "description": "Spicy curries and tandoori dishes",
+            "opens": "22:51",
+            "closes": "23:13",
+            "rating": 4.9,
+            "numRatings": 772,
+            "costForTwo": 73,
+            "imageUrl": "/images/restaurants/mad-about-pizza/restaurant.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Down South",
+            "description": "Authentic Italian cuisine",
+            "opens": "17:49",
+            "closes": "21:17",
+            "rating": 3.9,
+            "numRatings": 78,
+            "costForTwo": 76,
+            "imageUrl": "images/restaurants/down-south/restaurant.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Nachos And Tacos",
+            "description": "Spicy curries and tandoori dishes",
+            "opens": "09:25",
+            "closes": "19:30",
+            "rating": 4.5,
+            "numRatings": 332,
+            "costForTwo": 87,
+            "imageUrl": "images/restaurants/nachos-and-tacos/restaurant.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Pind Da Swaad",
+            "description": "Mexican street food",
+            "opens": "09:05",
+            "closes": "16:43",
+            "rating": 4.1,
+            "numRatings": 340,
+            "costForTwo": 81,
+            "imageUrl": "images/restaurants/pind-da-swaad/restaurant.jpg"
+        }
+    ]
+}

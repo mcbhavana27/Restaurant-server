@@ -1,0 +1,19 @@
+{
+    "name":"I-Scream",
+    "slug":"i-scream",
+    "description":"Ice and frozen desserts - so yummy",
+    "cuisines":[
+        "General"
+    ],
+    "opens":{
+        "hours":10,
+        "minutes":30
+    },
+    "closes":{
+        "hours":23,
+        "minutes":30
+    },
+    "rating":4.6,
+    "numRating":90,
+    "costForTwo":280
+}
